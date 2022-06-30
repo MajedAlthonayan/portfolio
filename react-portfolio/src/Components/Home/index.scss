@@ -9,14 +9,17 @@
     }
     h1 {
         color: #fff;
-        font-size: 53px;
+        top: 20% !important;
+        font-size: 55px;
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
 
-
+   
         img {
-            width: 32px;
+            position: relative;
+            top: 7px;
+            width: 50px;
             margin-left: 20px;
             opacity: 0;
             height: auto;

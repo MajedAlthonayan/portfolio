@@ -1,21 +1,18 @@
 import {useEffect, useState} from 'react'
-import LogoTitle from '../../assets/images/logo-s.png';
+import LogoTitle from '../../assets/images/logo_s.png';
 import {Link} from 'react-router-dom';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
+import Logo from './Logo';
 
 const Home = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['l','o','b','o','d','a','n']
+    const nameArray = ['a','j','e','d','.']
     const jobArray = ['w','e','b','','d','e','v','e','l','o','p','e','r']
 
 
-    // useEffect(() => {
-    //     return setTimeout(() => {
-    //       setLetterClass('text-animate-hover')
-    //     }, 4000)
-    //   }, [])
+ 
 
     useEffect(() => {
          setTimeout(() => {
@@ -39,6 +36,7 @@ const Home = () => {
                 <h2>Frontend Developer</h2>
                 <Link to="/contact" className="flat-button">Contact me</Link>
             </div>
+            <Logo />
         </div>        
     );
 }
