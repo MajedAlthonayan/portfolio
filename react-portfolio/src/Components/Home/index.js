@@ -9,7 +9,7 @@ const Home = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['a','j','e','d','.']
-    const jobArray = ['S','t','u','d','e','n','t']
+    const jobArray = ['C','o','m','p','u','t','e','r', '', 'S','c','i','e','n','c','e','','S','t','u','d','e','n','t']
     // ['w','e','b','','d','e','v','e','l','o','p','e','r']
     
 
@@ -35,7 +35,7 @@ const Home = () => {
                 <br></br>
                 <AnimatedLetters letterClass={letterClass}  strArray={jobArray} idx={22}/>
                 </h1>
-                <h2>Royal Holloway Computer Science Student</h2>
+                <h2>Royal Holloway, University of London</h2>
                 <h2>Year 3</h2>
                 <Link to="/contact" className="flat-button">Contact me</Link>
             </div>
