@@ -24,20 +24,21 @@ const Sidebar = () => (
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                 </NavLink>
             </nav>
-            <ul>
+            
+        </Link>
+        <ul>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="#">
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/majedalthonayan/">
                         <FontAwesomeIcon icon={ faLinkedin } color="#4d4d4e"></FontAwesomeIcon>
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="#">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/MajedAlthonayan">
                         <FontAwesomeIcon icon={ faGithub } color="#4d4d4e"></FontAwesomeIcon>
                     </a>
                 </li>
                 
             </ul>
-        </Link>
     </div>
 )
 
