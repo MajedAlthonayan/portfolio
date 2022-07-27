@@ -61,6 +61,7 @@ const About = () => {
             <img
                 className="baby-pic"
                 src={Pic}
+                alt=""
             />
 
         </div>
