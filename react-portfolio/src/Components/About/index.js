@@ -46,6 +46,12 @@ const About = () => {
                 </div>
             </div>
             <div className='text-zone'>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
                 <h1>
                     <AnimatedLetters
                         letterClass={letterClass}
@@ -53,9 +59,15 @@ const About = () => {
                         idx={15}
                     />
                 </h1>
-                <p>Paragraph 1</p>
-                <p>paragraph 2</p>
-                <p>paragraph 3</p>
+                <p>My name is Majed Althonayan, I was born and raised in Jeddah, Saudi Arabia to a loving family. 
+                    I lived in jeddah until 8 years of age, at which point we migrated to live in London, England.
+                </p>
+                <p>I completed my schooling at Vyners School where I achieved excellent GCSE and A Level grades, 
+                    allowing me to pursue my passion in studying Computer Science at University.
+                </p>
+                <p>I am currently studying computer Science at Royal Hollay in my final year hoping to go into a 
+                    career in cyber security.
+                </p>
             </div>
 
             <img
