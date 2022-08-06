@@ -1,0 +1,28 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/wordle/one.jpg",
+            "title": "Wordle",
+            "description": "React",
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/wordle/one.jpg",
+            "title": "F1 Blog",
+            "description": "React, CSS",
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/wordle/one.jpg",
+            "title": "Portfolio",
+            "description": "React, JSX, Tailwind, Jest",
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/wordle/one.jpg",
+            "title": "Calculator",
+            "description": "Java",
+            "url": "http://google.com"
+        }
+    ]
+}
