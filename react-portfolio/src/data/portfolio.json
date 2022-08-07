@@ -1,28 +1,28 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/wordle/one.jpg",
-            "title": "Wordle",
-            "description": "React",
+            "cover": "/portfolio/wordle/wordle.png",
+            "title": "Sports Wordle",
+            "description": "ReactJS application which is a remix of the famous wordle game but using sport related words instead",
             "url": "http://google.com"
         },
         {
-            "cover": "/portfolio/wordle/one.jpg",
+            "cover": "/portfolio/blog/f1.png",
             "title": "F1 Blog",
-            "description": "React, CSS",
+            "description": "A ReactJS blog dedicated to formula one, allowing addition, deletion and filtering of blogs.",
             "url": "http://google.com"
         },
         {
-            "cover": "/portfolio/wordle/one.jpg",
-            "title": "Portfolio",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/restaurant/restaurant.png",
+            "title": "Restaurant",
+            "description": "A restaurant application built using HTML and PHP which accomodates for the needs of customers, waiters and chefs.",
+            "url": "http://localhost:3000/"
         },
         {
-            "cover": "/portfolio/wordle/one.jpg",
-            "title": "Calculator",
-            "description": "Java",
-            "url": "http://google.com"
+            "cover": "/portfolio/calc/calc.png",
+            "title": "Infix / Postfix Calculator",
+            "description": "A Calculator app built using Java and JavaFX. The application allows the use of both infix and postfix notation in real time.",
+            "url": "https://youtu.be/X1MwMOsYI1Y"
         }
     ]
 }

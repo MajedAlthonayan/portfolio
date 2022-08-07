@@ -33,10 +33,10 @@ const Portfolio = () => {
                                 <div className="content">
                                     <p className="title">{port.title}</p>
                                     <h4 className="description">{port.description}</h4>
-                                    <button
+                                    {/* <button
                                         className="btn"
                                         onClick={() => window.open(port.url)}
-                                    >View</button>
+                                    >View</button> */}
                                 </div>
                             </div>
                         )
